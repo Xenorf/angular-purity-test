@@ -1,0 +1,45 @@
+{
+    "questions": [{
+            "questionText": "Avez-vous déjà ri du malheur d'un handicapé ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 10
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Vous êtes un enculé",
+            "options": [{
+                    "text": "Vrai",
+                    "class": "bg-success",
+                    "points": 0
+                },
+                {
+                    "text": "Faux",
+                    "class": "bg-danger",
+                    "points": 10
+                }
+            ]
+        },
+        {
+            "questionText": "Est-ce que tu t'appelles Emma ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": -10
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        }
+    ]
+}

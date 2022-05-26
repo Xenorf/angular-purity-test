@@ -1,0 +1,17 @@
+<div class="container py-5">
+    <div class="card">
+        <h1 class="display-5 fw-bold">Bienvenue sur le quiz du tutorat</h1>
+        <p class="col-md-8">Il a été crée par nos meilleurs ingénieurs afin de déterminer si tu es pur(e)</p>
+        <h4>Règles :</h4>
+        <ol>
+            <li>1ère règle</li>
+            <li>2ème règle</li>
+        </ol>
+        <h2 class="mx-auto">Bonne chance</h2>
+        <div class="name col-md-4 my-3">
+            <label for="">Entrer votre nom</label>
+            <input #name type="text" class="form-control">
+        </div>
+        <button class="btn btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Commencer le quiz</button>
+    </div>
+</div>
