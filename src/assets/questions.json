@@ -1,10 +1,10 @@
 {
     "questions": [{
-            "questionText": "Avez-vous déjà ri du malheur d'un handicapé ?",
+            "questionText": "As-tu déjà ri du malheur d’un P1 ?",
             "options": [{
                     "text": "Oui",
                     "class": "bg-success",
-                    "points": 10
+                    "points": 5
                 },
                 {
                     "text": "Non",
@@ -14,30 +14,800 @@
             ]
         },
         {
-            "questionText": "Vous êtes un enculé",
-            "options": [{
-                    "text": "Vrai",
-                    "class": "bg-success",
-                    "points": 0
-                },
-                {
-                    "text": "Faux",
-                    "class": "bg-danger",
-                    "points": 10
-                }
-            ]
-        },
-        {
-            "questionText": "Est-ce que tu t'appelles Emma ?",
+            "questionText": "As-tu déjà ri d’une grille décalée ?",
             "options": [{
                     "text": "Oui",
                     "class": "bg-success",
-                    "points": -10
+                    "points": 5
                 },
                 {
                     "text": "Non",
                     "class": "bg-danger",
                     "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà recherché le classement de khôlle d’un P1 que tu n’aimais pas ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "T’es-tu déjà trompé de prénom en parlant à un de tes tuteurs ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà confondu des tuteurs avec des P1 ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quand tu étais en P1, as-tu eu un crush sur un ou plusieurs tuteurs, membres du bureau, anciens ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quand tu étais tuteur, as-tu déjà eu un date avec un P1 ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quand tu étais au bureau, as-tu déjà eu un date avec un P1 ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quand tu étais au bureau, as-tu déjà eu un date avec un tuteur ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà embrassé un conférencier de chez Galien ou Sup ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà embrassé un autre membre de ton bureau ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà eu des avances d’un de tes anciens ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà fait des avances à un de tes enfants, petits-enfants ou descendants plus lointains ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà eu des relations sexuelles avec un tuteur ou un P1 ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà eu des relations sexuelles avec quelqu’un de ta famille (autre membre d’un bureau du tuto) ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà eu des relations sexuelles avec quelqu’un dans la salle de Chantal ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà eu des relations sexuelles à la fac ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà eu des relations sexuelles avec quelqu’un appartenant au personnel de la fac de Nantes ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà eu des relations sexuelles uniquement dans le but de défendre les intérêts du tutorat ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà soulé ou drogué un P1 pour en abuser sexuellement et réussi ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà sélectionné un tuteur uniquement à cause de son physique ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà refusé un tuteur uniquement à cause de son physique ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Est-ce que le récit des multiples aventures de Simon Bossis au tuto t’a excité ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu hésité avant de répondre à la question précédente ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà été en couple avec un de tes tuteurs (pendant qu’il était ton tuteur ou après) ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "T’es tu déjà masturbé au bureau du tutorat ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Masturbation mutuelle ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Jusqu’à l’orgasme ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà fait un rêve érotique impliquant un membre du tuto ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà bu de l’alcool ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà été ivre ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà exhibé tes parties intimes devant un autre membre de ton bureau ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Es-tu déjà arrivé en khôlle encore ivre de la veille ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà porté un vêtement du tuto en soirée (hors soirée tuto et post CCB/EB) ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà consommé de l’alcool uniquement pour racheter un pin’s ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà discuté avec un P1 uniquement dans le but de te faire payer un verre ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà bu assez pour vomir ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà vomi en présence ou sur un autre membre de ton bureau ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà fait un limousin en présence de P1 ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà uriné sur Galien ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà vomi sur la corpo ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà passé une nuit au bureau du tutorat ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà fait souffrir un emblème du tutorat (Brutus ou Théodore par exemple) ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà aidé ou travaillé pour une prépa privée ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "T’es-tu déjà posé des questions sur la vie sexuelle de Françoise Nazih ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quand tu étais au bureau, as-tu déjà caché ton goûter dans ton casier pour ne pas le partager avec ton bureau ou des anciens ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Quand tu étais au bureau, as-tu déjà subtilisé toute la nourriture que des tuteurs ou P1 avaient amené ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Possèdes-tu un guide de l’orientation ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Es-tu déjà allé dans un lieu de culte (bureau de Mme Nazih par exemple) pour une autre raison qu’un rendez-vous professionnel ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà rencontré Jean Hoffman en personne ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà écouté Florence (aka la femme de Ménache) plus de 30mn d’affilé ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà fait la vaisselle au bureau ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà déclenché l’alarme anti intrusion de bias ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà personnellement reçu un cadeau d’un P1 inconnu ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà pensé à détourner l’argent du tutorat pour financer tes vacances ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà fait semblant de suivre une rdb alors que tu faisais autre chose ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "As-tu déjà suivi une rdb bourré ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Non",
+                    "class": "bg-danger",
+                    "points": 0
+                }
+            ]
+        },
+        {
+            "questionText": "Est-ce que tu aimes les ingénieurs et particulièrement le créateur de ce quiz, le grand Louis Sohier ?",
+            "options": [{
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
+                },
+                {
+                    "text": "Oui",
+                    "class": "bg-success",
+                    "points": 5
                 }
             ]
         }
